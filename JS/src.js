@@ -28,6 +28,6 @@ buttons.forEach((btn) => {
         // Removendo a animação após 2 milisegundos
         setTimeout(() => {
             image.classList.toggle("changing");
-        }, 200);
+        }, 100);
     });
 });
